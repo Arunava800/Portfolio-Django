@@ -1,0 +1,17 @@
+.li-color
+{
+    color: #FFFFFF;
+}
+.li-color:hover
+{
+    color: #808080;
+}
+
+.rotate-img
+{
+    transition: 0.9s ease-in-out;
+}
+.rotate-img:hover
+{
+    transform: rotate(360deg);
+}

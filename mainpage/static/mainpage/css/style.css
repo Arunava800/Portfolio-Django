@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@900&family=Roboto:wght@900&display=swap');
+
+.set-background
+{
+    background-image: url('../../mainpage/css/download.jpeg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+.set-head
+{
+   text-align: center;
+   font-family: 'Kanit', sans-serif;
+   font-family: 'Roboto', sans-serif;
+
+}
