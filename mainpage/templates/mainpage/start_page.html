@@ -8,16 +8,36 @@ Freelance Developer
 
 {% block css_files%}
 <link rel="stylesheet" href="{% static 'mainpage/css/style.css' %}" />
+
 {% endblock %}
 
 {% block content %}
+<div class="banner">
+    <img src = "{% static 'mainpage/image/background.jpeg'%}" alt="background" class="set-background">
+    <div class = "banner-text">
+        <section class = "banner-view">
+            <div class ="container">
+                <div class ="row">
+                    <div class ="col-6">
+                        <p class="text-banner">
+                        <h1 class="head-text">FULL STACK AND AI/ML DEVELOPER</h1>
+                        <p class="desc-text">
+                            Front-end Development, Back-end Development Machine Learning<br>
+                            and Artificial Intelligence<br>
+                            <a class="btn btn-success w-50" href=""> HIRE ME</a>
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <img src="{%static 'mainpage/image/4.jpg'%}" alt="personal-image" class="banner-img">
+                    </div>
 
-    <div>
-        <section class="set-background">
-            <p>pppppppppp</p>
+
+                </div>
+            </div>
         </section>
 
     </div>
+</div>
 
     <div class ="set-head">
         <img src="{% static 'mainpage/image/head_image.jpg'%}" alt = "image">
@@ -33,9 +53,96 @@ Freelance Developer
 
     </div>
 
+<div class="Interests banner-view">
+    <br>
+    <h1 class="head-text"> Areas of Interest</h1>
+    <p class="desc-text">Take a look at some of the things I am working on</p>
+</div>
 
-
-
-
+<div class ="container">
+    <div class="row">
+        <div class="col-4">
+            <div class="banner-view">
+                <div>
+                    <img src="{% static 'mainpage/image/analytics.jpeg' %}" width=80" height="80" alt="analytics">
+                </div>
+                <div>
+                    <h5>Data Analytics</h5>
+                    <p>I love telling a story. Making beautiful
+                        and compelling presentation is one of my favourite
+                        skills.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="banner-view">
+                <div>
+                    <img src="{% static 'mainpage/image/machine.jpeg' %}" width="80" height="80" alt="machine Learning">
+                </div>
+                <div>
+                    <h5>Machine Learning</h5>
+                    <p>Machine Learning is more than an
+                        API call to scikit-learn. I love the
+                        math and theory as well as the implementation.
+                    </p>
+                </div>
+            </div>
+         </div>
+        <div class="col-4">
+            <div class="banner-view">
+                <div>
+                    <img src="{% static 'mainpage/image/ai.jpeg' %}" width="80" height="80" alt="machine Learning">
+                </div>
+                <div>
+                    <h5>Artificial Intelligence</h5>
+                    <p>I am passionate about learning the theory that
+                        is pushing the cutting edge of AI.
+                    </p>
+                </div>
+            </div>
+     </div>
+    <div class="row">
+        <div class="col-4">
+            <div class="banner-view">
+                <div>
+                    <img src="{% static 'mainpage/image/python.jpeg' %}" width="80" height="80" alt="machine Learning">
+                </div>
+                <div>
+                    <h5>Python</h5>
+                    <p>I utilize python programming language for machine
+                        learning, artificial intelligence and web-development.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="banner-view">
+                <div>
+                    <img src="{% static 'mainpage/image/Excel.jpeg' %}" width="80" height="80" alt="machine Learning">
+                </div>
+                <div>
+                    <h5>Excel</h5>
+                    <p> I am passionate about learning different functions
+                        and formulas in excel to work and save different datasets.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="banner-view">
+                <div>
+                    <img src="{% static 'mainpage/image/sql.jpeg' %}" width="80" height="80" alt="machine Learning">
+                </div>
+                <div>
+                    <h5>SQL</h5>
+                    <p> I am passionate about learning different functions
+                        and formulas in excel to work and save different datasets.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
 
 {% endblock %}

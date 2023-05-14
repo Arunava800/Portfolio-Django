@@ -1,19 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@900&family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Fredericka+the+Great&family=Monoton&family=Rammetto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
 
+
+.banner
+{
+    position: relative;
+}
+.banner-text
+{
+    position: absolute;
+    top: 25%;
+    color: #FFFFFF;
+}
+.banner-view
+{
+    text-align: center;
+
+}
+.banner-img
+{
+    height: 20em;
+    width: 20em;
+    border-radius: 50%;
+    margin-left: 15em;
+}
+.desc-text
+{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 20px;
+}
+.head-text
+{
+    font-family: 'Bangers', cursive;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'Rammetto One', cursive;
+}
 .set-background
 {
-    background-image: url('../../mainpage/css/download.jpeg');
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
-
+   width:100vw;
+   height: 100vh;
 }
 .set-head
 {
    text-align: center;
-   font-family: 'Kanit', sans-serif;
+   font-family: 'Kanit', 'sans-serif';
    font-family: 'Roboto', sans-serif;
 
+}
+.set-background
+{
+    color: green;
+}
+.text-banner
+{
+    margin-bottom:5em !important;
 }

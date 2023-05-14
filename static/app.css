@@ -1,3 +1,20 @@
+.footer
+{
+    background-color: #000000;
+    width: 100vw;
+    height: 40vh;
+}
+.footer-image
+{
+    margin-top: 50px;
+}
+
+.image-div
+{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 12px;
+}
 .li-color
 {
     color: #FFFFFF;
@@ -10,8 +27,13 @@
 .rotate-img
 {
     transition: 0.9s ease-in-out;
+
 }
 .rotate-img:hover
 {
     transform: rotate(360deg);
+}
+span
+{
+    color: #2E8B57;
 }
